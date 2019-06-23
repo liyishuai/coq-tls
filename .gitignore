@@ -32,3 +32,4 @@ nra.cache
 Makefile.coq*
 .DS_Store
 .coqdeps.d
+.#*
