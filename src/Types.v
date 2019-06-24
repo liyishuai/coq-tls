@@ -37,5 +37,8 @@ Definition FFDHE4096 : Group := 258.  (* 0x0102 *)
 Definition FFDHE6144 : Group := 259.  (* 0x0103 *)
 Definition FFDHE8192 : Group := 260.  (* 0x0104 *)
 
+Definition GroupPrivate := N.
+Definition GroupPublic  := N.
+
 (* https://tlswg.org/tls13-rfc/rfc8446.html#rfc.section.4.4.4 *)
 Definition FinishedData := string.
