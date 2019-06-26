@@ -39,6 +39,7 @@ Definition FFDHE8192 : Group := 260.  (* 0x0104 *)
 
 Definition GroupPrivate := N.
 Definition GroupPublic  := N.
+Definition GroupKey     := N.
 
 (* https://tlswg.org/tls13-rfc/rfc8446.html#rfc.section.4.4.4 *)
 Definition FinishedData := string.

@@ -26,6 +26,9 @@ Variant Handshake13 :=
     (* https://tlswg.org/tls13-rfc/rfc8446.html#rfc.section.4.4.4 *)
     (verify_data       : FinishedData).
 
+(* https://tlswg.org/tls13-rfc/rfc8446.html#rfc.section.5.2 *)
+Definition Ciphertext := string.
+
 Variant Packet13 :=
   Packet_Handshake13 : list Handshake13 -> Packet13
-| Packet_AppData13   : string -> Packet13.
+| Packet_AppData13   : Ciphertext -> Packet13.

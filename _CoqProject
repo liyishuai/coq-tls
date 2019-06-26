@@ -2,3 +2,4 @@
 src/Types.v
 src/Extensions.v
 src/Struct13.v
+src/Client.v
